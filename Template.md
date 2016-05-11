@@ -21,9 +21,9 @@ n,n,n
 ```
 
 Where:
-|legend	|description|
-|-------|-----------|
-|n		|index of timeplan|
+| legend | description |
+| ------- | ---------- |
+| n | index of timeplan |
 
 **Note!**
 The length of the string, (I.e. number of parameters in string) is defined by number of avalable time plans in the TLC.
