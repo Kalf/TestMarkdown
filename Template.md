@@ -14,11 +14,11 @@ ___
 ## Example message
 
 **Message sent from SCADA to Client**
-´´´ javascript
+``` javascript
 	{"mType":"rSMsg",
 	"type":"Version",
 	"mId":"a891e7d2-1ce5-4a57-81f2-73f7a820152e",
 	"RSMP":[],
 	"siteId":[{"sId":"AA+BBCC"}],
 	"SXL":"1.0.13"}
-´´´
+```
