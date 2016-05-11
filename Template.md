@@ -1,7 +1,7 @@
 # List of time plans
 ___
 ##Description
-This status returns a comma separated list of time plans in the TLC.
+This status returns a comma separated list of time plans avalable in the TLC.
 
 + **ObjectType:** Traffic Controller
 + **Object:** 
@@ -16,6 +16,7 @@ This status returns a comma separated list of time plans in the TLC.
 
 ### Definition of return string
 The return string is defined as;
+
 ```
 n,n,n
 ```
@@ -28,6 +29,8 @@ Where:
 
 **Note!**
 The length of the string, (I.e. number of parameters in string) is defined by number of avalable time plans in the TLC.
+**Note 2!**
+All time plans are separated with a comma (,)
 
 ## Example message
 
@@ -58,3 +61,6 @@ The length of the string, (I.e. number of parameters in string) is defined by nu
 		"q":"recent"}]}
 
 ```
+
+**Note!**
+All messages should be acknowledged by the other part (The SCADA acknowledges the TLC's messages and vice versa). The acknowledg messages are not presented in the above examples. For more information see the RSMP specification.
