@@ -1,8 +1,11 @@
 # List of time plans
 ___
+##Description
+This status returns a comma separated list of time plans in the TLC.
+
 + **ObjectType:** Traffic Controller
 + **Object:** 
-+ **StatusCodeId:** S0021
++ **StatusCodeId:** S0022
 + **Description:** List of time plans
 
 ## Return value
@@ -10,6 +13,20 @@ ___
 + **Type:** String
 + **Value:** [text]
 + **Comment:** Comma spearated list of configured time plans
+
+### Definition of return string
+The return string is defined as;
+```
+n,n,n
+```
+
+Where:
+|legend	|description|
+|-------|-----------|
+|n		|index of timeplan|
+
+**Note!**
+The length of the string, (I.e. number of parameters in string) is defined by number of avalable time plans in the TLC.
 
 ## Example message
 
